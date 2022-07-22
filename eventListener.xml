@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data xmlns="https://www.woltlab.com"
+	xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/5.5/eventListener.xsd">
+	<import>
+		<eventlistener name="accountManagementFormTestUserAddPermission">
+			<eventclassname>wcf\form\AccountManagementForm</eventclassname>
+			<eventname>readParameters</eventname>
+			<environment>user</environment>
+			<inherit>1</inherit>
+			<listenerclassname>wcf\system\event\listener\TestUserAddPermissionListener</listenerclassname>
+		</eventlistener>
+		<eventlistener name="accountSecurityPageTestUserAddPermission">
+			<eventclassname>wcf\page\AccountSecurityPage</eventclassname>
+			<eventname>readParameters</eventname>
+			<environment>user</environment>
+			<inherit>1</inherit>
+			<listenerclassname>wcf\system\event\listener\TestUserAddPermissionListener</listenerclassname>
+		</eventlistener>
+		<eventlistener name="notificationSettingsFormTestUserAddPermission">
+			<eventclassname>wcf\form\NotificationSettingsForm</eventclassname>
+			<eventname>readParameters</eventname>
+			<environment>user</environment>
+			<inherit>1</inherit>
+			<listenerclassname>wcf\system\event\listener\TestUserAddPermissionListener</listenerclassname>
+		</eventlistener>
+		<eventlistener name="lostPasswordFormTestUserAddPermission">
+			<eventclassname>wcf\form\LostPasswordForm</eventclassname>
+			<eventname>readParameters</eventname>
+			<environment>user</environment>
+			<inherit>1</inherit>
+			<listenerclassname>wcf\system\event\listener\TestUserAddPermissionListener</listenerclassname>
+		</eventlistener>
+		<eventlistener name="settingsFormTestUserAddPermission">
+			<eventclassname>wcf\form\SettingsForm</eventclassname>
+			<eventname>readParameters</eventname>
+			<environment>user</environment>
+			<inherit>1</inherit>
+			<listenerclassname>wcf\system\event\listener\TestUserAddPermissionListener</listenerclassname>
+		</eventlistener>
+	</import>
+</data>
