@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package name="de.xxschrandxx.wsc.test-account"
+<package name="de.xxschrandxx.wsc.test-group"
 	xmlns="https://www.woltlab.com"
 	xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/5.5/package.xsd">
 	<packageinformation>
-		<packagename><![CDATA[Test-Account]]></packagename>
+		<packagename><![CDATA[Test-Group]]></packagename>
 		<packagedescription><![CDATA[Adds a way to prevent a user to change stuff from account-management.]]></packagedescription>
 		<version>1.0.0</version>
 		<date>2022-07-22</date>
@@ -25,5 +25,6 @@
 		<instruction type="file" />
 		<instruction type="language" />
 		<instruction type="eventListener" />
+		<instruction type="userGroupOption" />
 	</instructions>
 </package>
