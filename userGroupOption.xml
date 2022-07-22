@@ -3,7 +3,7 @@
 	xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/5.5/userGroupOption.xsd">
 	<import>
 		<options>
-			<option name="user.profile.isNoTestAccount">
+			<option name="user.profile.isNoTestGroup">
 				<categoryname>user.profile</categoryname>
 				<optiontype>boolean</optiontype>
 				<defaultvalue>1</defaultvalue>

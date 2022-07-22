@@ -4,6 +4,6 @@
 	xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/5.5/language.xsd">
 	<category name="wcf.acp.group">
 		<item name="wcf.acp.group.option.user.profile.isNoTestGroup"><![CDATA[Ist keine Test-Gruppe]]></item>
-		<item name="wcf.acp.group.option.user.profile.isNoTestGroup.description"><![CDATA[Wnn deaktiviert können Benutzer u. a. ihr Passwort nicht ändern.]]></item>
+		<item name="wcf.acp.group.option.user.profile.isNoTestGroup.description"><![CDATA[Wenn deaktiviert können Benutzer u. a. ihr Passwort nicht ändern.]]></item>
 	</category>
 </language>
